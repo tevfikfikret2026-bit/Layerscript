@@ -1,0 +1,10 @@
+# LayerScript Target Solution
+layer submitBtn = Button("#submit") {
+    style: [color: "neon-teal", radius: "8px"],
+    onClick: {
+        print("LayerScript Captured This Click!")
+    }
+}
+
+layer score = 0
+layer scoreDisplay <- "#game-score"
