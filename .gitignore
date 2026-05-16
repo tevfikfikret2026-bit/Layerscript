@@ -1,0 +1,28 @@
+# Dependency directories (Node kütüphaneleri - GitHub'a asla yüklenmez)
+node_modules/
+jspm_packages/
+
+# Build outputs (TypeScript'in derlediği JavaScript çıktı klasörleri)
+dist/
+build/
+out/
+
+# IDEs and editors (Kullandığın kod editörünün gizli ayar dosyaları)
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Logs (Hata logları)
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata (İşletim sisteminin gizli dosyaları)
+.DS_Store
+Thumbs.db
