@@ -1,0 +1,18 @@
+{
+  "name": "layerscript-1",
+  "version": "1.0.0",
+  "description": "A minimalist, web-centric language that transpiles to JavaScript.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["compiler", "transpiler", "layerscript", "javascript"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11"
+  }
+}
